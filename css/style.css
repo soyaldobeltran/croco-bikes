@@ -1,0 +1,169 @@
+.header{
+    background-image: url(../img/young-adult-using-electric-scooter-for-transportation-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .title {
+    height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0)
+    
+   
+
+}
+
+.boton a , .boton a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ .boton:hover{
+     transform: scale(1.2);
+ }
+.boton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color:  rgb(255, 221, 0);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+
+    
+}
+
+
+
+.header .title h1 span{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #18bdec;
+    width: 7ch;
+    animation: typing 2s steps(7), 
+    blink .5s infinite step-end alternate;
+    
+    
+}
+
+.footer {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+} 
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+    50% {
+    border-color: transparent;
+  }
+}
+
+.title {
+    color: white
+}
+
+.yellow{
+    color: rgb(255, 221, 0);
+}
+
+#servicios {
+
+    
+    padding: 6rem;
+}
+
+#servicios h2{
+    display: flex;
+    text-align: center;
+    padding-bottom: 5rem;
+    justify-content: center;
+    color: black;
+}
+.card .card-img-top{
+    display: flex;
+    max-width: 40vh;
+    align-self: center;
+    align-items: flex-end;
+}
+
+.card{
+    padding: 1rem;
+    min-height: 20vw;
+    margin: 1rem;
+    background-color: purple;
+    color: white;
+
+}
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.footer, i {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer div, i {
+    font-size: 30px;
+    display: flex;
+    padding: 2rem;
+    
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.botonwhats {
+
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    font-size:30px;
+    z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.botonwhats:hover{
+
+    transform: scale(1.2);
+}
